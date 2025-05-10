@@ -1,0 +1,45 @@
+version: '3.1'
+
+services:
+  drupal:
+    image: drupal:8.3.7-apache
+    ports:
+      - 8080:80
+    volumes:
+      - /var/www/html/modules
+      - /var/www/html/profiles
+      - /var/www/html/themes
+      # this takes advantage of the feature in Docker that a new anonymous
+      # volume (which is what we're creating here) will be initialized with the
+      # existing content of the image at the same location
+      - /var/www/html/sites
+    restart: always
+
+  postgres:
+    image: postgres:10.1
+    environment:
+      POSTGRES_PASSWORD: example
+    restart: always
+    ports:
+      - 5433:5432
+
+  # drupal-mysql:
+  #   image: mysql:5.7
+  #   restart: always
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: drupal
+  #     MYSQL_DATABASE: drupal
+  #     MYSQL_USER: drupal
+  #     MYSQL_PASSWORD: drupal
+  #   ports:
+  #     - 3306:3306
+
+  drupal-psql:
+    image: postgres:10.1
+    restart: always
+    environment:
+      POSTGRES_DB: drupal
+      POSTGRES_USER: drupal
+      POSTGRES_PASSWORD: drupal
+    ports:
+      - 5434:5432

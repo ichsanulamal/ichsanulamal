@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  database:
+    image: "postgres:13" # use latest official postgres version
+    environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: crypto
+    ports:
+        - 5432:5432

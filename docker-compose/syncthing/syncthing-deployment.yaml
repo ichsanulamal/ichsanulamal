@@ -1,0 +1,99 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: syncthing
+  name: syncthing
+spec:
+  ports:
+    - name: "8384"
+      port: 8384
+      targetPort: 8384
+      nodePort: 30003
+    - name: "22000"
+      port: 22000
+      targetPort: 22000
+    - name: 22000-udp
+      port: 22000
+      protocol: UDP
+      targetPort: 22000
+    - name: "21027"
+      port: 21027
+      protocol: UDP
+      targetPort: 21027
+  selector:
+    app: syncthing
+  type: NodePort
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: syncthing
+  name: syncthing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: syncthing
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: syncthing
+    spec:
+      nodeSelector:
+        group: file-sharing
+      containers:
+        - env:
+            - name: PGID
+              value: "1000"
+            - name: PUID
+              value: "1000"
+          image: syncthing/syncthing
+          name: syncthing
+          ports:
+            - containerPort: 8384
+            - containerPort: 22000
+            - containerPort: 22000
+              protocol: UDP
+            - containerPort: 21027
+              protocol: UDP
+          volumeMounts:
+            - mountPath: /var/syncthing
+              name: file-persistent-storage
+      restartPolicy: Always
+      volumes:
+        - name: file-persistent-storage
+          persistentVolumeClaim:
+            claimName: file-pv-claim
+
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: file-pv-volume
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 3Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/data"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: file-pv-claim
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 3Gi

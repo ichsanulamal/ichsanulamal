@@ -1,0 +1,31 @@
+version: '3.1'
+
+services:
+  joomla:
+    image: joomla:3.9-php7.2-apache
+    restart: always
+    links:
+      - joomladb:mysql
+    ports:
+      - 8080:80
+    environment:
+      JOOMLA_DB_HOST: joomladb
+      JOOMLA_DB_PASSWORD: example
+
+  joomladb:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - 3306:3306
+
+  joomla-psql:
+    image: postgres:10.1
+    restart: always
+    environment:
+      POSTGRES_DB: joomla
+      POSTGRES_USER: joomla
+      POSTGRES_PASSWORD: joomla
+    ports:
+      - 5432:5432

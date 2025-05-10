@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: drupal
+  name: drupal
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: drupal
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: drupal
+    spec:
+      containers:
+        - image: drupal:8.3.7-apache
+          name: drupal
+          ports:
+            - containerPort: 80
+          resources: {}
+          volumeMounts:
+            - mountPath: /var/www/html/modules
+              name: drupal-claim0
+            - mountPath: /var/www/html/profiles
+              name: drupal-claim1
+            - mountPath: /var/www/html/themes
+              name: drupal-claim2
+            - mountPath: /var/www/html/sites
+              name: drupal-claim3
+      restartPolicy: Always
+      volumes:
+        - name: drupal-claim0
+          persistentVolumeClaim:
+            claimName: drupal-claim0
+        - name: drupal-claim1
+          persistentVolumeClaim:
+            claimName: drupal-claim1
+        - name: drupal-claim2
+          persistentVolumeClaim:
+            claimName: drupal-claim2
+        - name: drupal-claim3
+          persistentVolumeClaim:
+            claimName: drupal-claim3
+status: {}

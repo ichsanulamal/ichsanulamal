@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: petclinic
+  labels:
+    app: petclinic
+spec:
+  ports:
+    - port: 8080
+  selector:
+    app: petclinic
+    tier: webprofile
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: petclinic
+  labels:
+    app: petclinic
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: petclinic
+      tier: webprofile
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: petclinic
+        tier: webprofile
+    spec:
+      containers:
+      - image: springcommunity/spring-framework-petclinic
+        name: petclinic
+        env:
+        - name: jdbc.driverClassName
+          value: com.mysql.cj.jdbc.Driver
+        - name: jdbc.url
+          value: jdbc:mysql://pet-mysql:3306/petclinic?useSSL=false
+        - name: jdbc.username
+          value: petclinic
+        - name: jdbc.password
+          value: petclinic
+        - name: jdbc.database
+          value: petclinic
+        ports:
+        - containerPort: 8080
+          name: petclinic
+      nodeSelector:
+        group: wprofile

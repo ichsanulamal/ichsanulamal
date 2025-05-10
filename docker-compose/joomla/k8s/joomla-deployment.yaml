@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: joomla
+  name: joomla
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      io.kompose.service: joomla
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: joomla
+    spec:
+      nodeSelector:
+        group: wprofile
+      containers:
+        - env:
+            - name: JOOMLA_DB_HOST
+              value: joomladb
+            - name: JOOMLA_DB_PASSWORD
+              value: example
+          image: joomla:3.9-php7.2-apache
+          name: joomla
+          ports:
+            - containerPort: 80
+          resources: {}
+      restartPolicy: Always
+status: {}

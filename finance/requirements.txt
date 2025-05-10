@@ -1,0 +1,9 @@
+# TA-Lib
+mplfinance
+yfinance
+world-bank-data
+backtrader
+pyforbes
+
+ccxt
+web3

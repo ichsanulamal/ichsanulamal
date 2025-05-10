@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: drupal-psql
+  name: drupal-psql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: drupal-psql
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: drupal-psql
+    spec:
+      containers:
+        - env:
+            - name: POSTGRES_DB
+              value: drupal
+            - name: POSTGRES_PASSWORD
+              value: drupal
+            - name: POSTGRES_USER
+              value: drupal
+          image: postgres:10.1
+          name: drupal-psql
+          ports:
+            - containerPort: 5432
+          resources: {}
+      restartPolicy: Always
+status: {}
