@@ -1,4 +1,4 @@
-# Ichsanul Amal
+# P
 
 > 🧭 _i don't know what i want. i only know what i don't want._
 
