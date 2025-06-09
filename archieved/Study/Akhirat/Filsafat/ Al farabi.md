@@ -1,0 +1,2 @@
+emanasi
+politik

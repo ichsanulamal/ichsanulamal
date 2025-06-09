@@ -3,7 +3,7 @@
   "search": "-path:\".venv\" -path:node_modules  ",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [],
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.28742158394822764,
+  "scale": 0.15435218481432308,
   "close": false
 }

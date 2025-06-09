@@ -1,0 +1,9 @@
+- Menjelaskan model pay-as-you-go dalam menggunakan sumber daya AWS.
+- Membedakan antara biaya di data center on-premise vs cloud.
+- Menerangkan AWS Free Tier yang menawarkan sebagian besar layanan AWS.
+- Menelaah penggunaan AWS Organizations dan bagaimana ia dapat membantu Anda dengan consolidated billing dari beberapa akun AWS.
+- Membahas layanan AWS Budgets.
+- Menjelaskan AWS Cost Explorer.
+- Menjelajahi AWS Console billing.
+- Membicarakan tentang berbagai model dukungan yang ditawarkan di AWS alias AWS Support Plans. Ini sangat berguna jika Anda ingin mencari bantuan dalam perjalanan cloud.
+- Terakhir, kita telah mempelajari AWS Marketplace yang dapat Anda gunakan untuk mencari layanan _click-and-go_ (klik dan jalankan).

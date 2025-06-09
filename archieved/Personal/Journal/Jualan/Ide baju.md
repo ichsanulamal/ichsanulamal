@@ -1,0 +1,6 @@
+- life is a masquerade party and I’ve been showing up as myself
+- ungeziefer
+- i would prefer not to
+- bayt al hikmah longer
+- ngaji filsafat
+- al ghuroba
