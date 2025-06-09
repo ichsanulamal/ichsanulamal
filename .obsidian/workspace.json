@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "6c0b2812314a504a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dbfc30dd259f1b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c36c531d5c70b0aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e9b5c1bba3aae35",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cf9d9925dd7f4ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e0c06ef20ff052c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b2cef9f90f738569",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "422ff82bda3d61b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0738bca4a294c196",
+    "type": "split",
+    "children": [
+      {
+        "id": "83b87a233a2c241b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ad8fec1b3ce3f87",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a2741af7b0f51ee7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d3149ce39b2f6f0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8354e047e391e2d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c36c531d5c70b0aa",
+  "lastOpenFiles": [
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Regression.md",
+    "finance/AI for Trading - Udacity/Linear Algebra.md",
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/README.md",
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Pairs Trading and Mean Reversion.md",
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Outliers and Filtering.md",
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Quant Workflow.md",
+    "finance/AI for Trading - Udacity/README.md",
+    "science_computation/README.md",
+    "README.md",
+    "scraping/node_modules/gopd/CHANGELOG.md",
+    "scraping/node_modules/delayed-stream/Readme.md",
+    "scraping/node_modules/ms/license.md",
+    "scraping/node_modules/decimal.js/README.md",
+    "Learning Notes.md",
+    "foam-README.md"
+  ]
+}
