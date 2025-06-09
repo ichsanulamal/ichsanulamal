@@ -20,7 +20,7 @@
 
 ### Others
 
-[[scraping]]
+[[Scraping]]
 
 [[Science Computation]]
 

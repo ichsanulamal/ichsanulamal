@@ -121,3 +121,6 @@ JOIN movie_stars ms ON m.movie_id = ms.movie_id
 JOIN stars s ON ms.actor_id = s.actor_id
 WHERE director_name = 'Martin Scorsese' AND actor_name = 'Robert De Niro';
 ```
+
+
+[[Data Engineering]]

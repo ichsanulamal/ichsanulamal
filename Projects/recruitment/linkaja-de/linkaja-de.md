@@ -132,3 +132,4 @@ Task `json2bq_task` mengambil file JSON yang telah diekspor sebelumnya dan mengi
 
 ![alt text](image-5.png)
 
+[[Data Engineering]]

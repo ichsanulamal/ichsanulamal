@@ -4,13 +4,13 @@
 
 [[visualizations]]
 
-[[gutenberg]]
+[[Gutenberg]]
 
 [[illuminati-content-detection]]
 
 [[reddit-mental-health-analysis]]
 
-[[crypto-feeds]]
+[[LunarCRUSH]]
 
 ## tech
 
@@ -28,7 +28,7 @@
 
 [[Fasilkom UI Blogs]]
 
-[[asdosan-scele]]
+[[Asdosan Scele]]
 
 ### Virtual Internships
 
@@ -45,3 +45,18 @@
 
 [[Recruitment]]
 
+
+---
+[[Buzzer detection]]
+  
+[[review fuki]]
+  
+[[Mentor apps ideation]]
+  
+[[graph-maps sunniXsyiah]]
+  
+[[Illuminati Content Detection]]
+  
+[[surveillence-organisasi]]
+  
+[[Kursus ibu2]]
