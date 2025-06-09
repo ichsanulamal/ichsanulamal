@@ -1,12 +1,12 @@
 # AI for Trading - Udacity
 
-Course 1: [[1_Basic Quantitative Trading/README]]
+Course 1: [[1_Basic Quantitative Trading]]
 
-Course 2: [[2_Advanced Quantitative Trading/README]]
+Course 2: [[2_Advanced Quantitative Trading]]
 
-Course 3: [[3_Stocks, Indices & ETFs/README]]
+Course 3: [[3_Stocks, Indices & ETFs]]
 
-Course 4: [[4_Factor Investing & Alpha Research/README]]
+Course 4: [[Factor Investing & Alpha Research]]
 
 
 

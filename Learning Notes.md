@@ -6,7 +6,7 @@
 
 [[Financial Engineering and Risk Management Part II - Coursera]]
 
-[[AI for Trading - Udacity/README]]
+[[AI for Trading - Udacity]]
 
 [[Financial Engineering and Artificial Intelligence in Python - TLP Udemy]]
 
@@ -20,20 +20,18 @@
 
 ## Virtual Internships
 
-[[forage-JPMC_quantitative-research/README]]
+[[forage-JPMC_quantitative-research]]
 
-[[rakamin-muamalat/README]]
+[[rakamin-muamalat]]
 
-[[rakamin-btps/README]]
+[[rakamin-btps]]
 
-[[rakamin-idx/README]]
+[[rakamin-idx]]
 
 # Others
 
-[[scraping/README]]
+[[scraping]]
 
-[[parallel_programming/README]]
+[[science_computation]]
 
-[[science_computation/README]]
-
-[[Crypto Data Analyst/README]]
+[[Crypto Data Analyst]]

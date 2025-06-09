@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3dbfc30dd259f1b2",
+        "id": "25ab0042f8fdea7f",
         "type": "tabs",
         "children": [
           {
-            "id": "c36c531d5c70b0aa",
+            "id": "951aef1d7e01888c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -165,22 +161,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c36c531d5c70b0aa",
+  "active": "951aef1d7e01888c",
   "lastOpenFiles": [
-    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Regression.md",
-    "finance/AI for Trading - Udacity/Linear Algebra.md",
-    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/README.md",
-    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Pairs Trading and Mean Reversion.md",
-    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Outliers and Filtering.md",
-    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/Quant Workflow.md",
-    "finance/AI for Trading - Udacity/README.md",
-    "science_computation/README.md",
+    "2025-06-09.md",
+    "Untitled.canvas",
     "README.md",
-    "scraping/node_modules/gopd/CHANGELOG.md",
-    "scraping/node_modules/delayed-stream/Readme.md",
-    "scraping/node_modules/ms/license.md",
-    "scraping/node_modules/decimal.js/README.md",
-    "Learning Notes.md",
-    "foam-README.md"
+    "finance/AI for Trading - Udacity/4_Factor Investing & Alpha Research/Factor Investing & Alpha Research.md",
+    "finance/unorganized/Ray Dalio/How The Economic Machine Works.md",
+    "finance/unorganized/Naval Ravikant/Nick Szabo The Quiet Master of Cryptocurrency.md",
+    "parallel_programming.md",
+    "rakamin-idx/README.md",
+    "rakamin-idx",
+    "finance/AI for Trading - Udacity/3_Stocks, Indices & ETFs/3_Stocks, Indices & ETFs.md",
+    "finance/AI for Trading - Udacity/1_Basic Quantitative Trading/1_Basic Quantitative Trading.md",
+    "finance/AI for Trading - Udacity/2_Advanced Quantitative Trading/2_Advanced Quantitative Trading.md",
+    "finance/AI for Trading - Udacity/AI for Trading - Udacity.md",
+    "finance/Crypto Data Analyst/Crypto Data Analyst.md",
+    "science_computation/science_computation.md",
+    "docker-compose/docker-compose.md",
+    "scraping/scraping.md",
+    "courses/rakamin-idx/rakamin-idx.md",
+    "courses/forage-JPMC_quantitative-research/forage-JPMC_quantitative-research.md",
+    "courses/rakamin-muamalat/rakamin-muamalat.md",
+    "courses/rakamin-btps/rakamin-btps.md",
+    "fasilkomui-blogs/fasilkomui-blogs.md",
+    "scraping/README.md",
+    "science_computation/README.md",
+    "finance/Crypto Data Analyst/README.md",
+    "finance/AI for Trading - Udacity/README.md",
+    "finance/AI for Trading - Udacity/4_Factor Investing & Alpha Research/README.md",
+    "forage-JPMC_quantitative-research"
   ]
 }

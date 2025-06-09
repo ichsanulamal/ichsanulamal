@@ -13,10 +13,6 @@
 
 [[Hotelier Crypto]]
 
-## Nutrition
-
-[[nutrition/index]]
-
 ## Physics
 
 [[David Deutsch]]
