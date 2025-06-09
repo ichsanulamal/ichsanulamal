@@ -32,3 +32,4 @@ If you're cooking up something cool — Reach out to me on:
 ![Amal's GitHub stats](https://github-readme-stats.vercel.app/api?username=ichsanulamal\&rank_icon=github)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ichsanulamal&layout=compact&hide=jupyter_notebook)
+

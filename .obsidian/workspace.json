@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b4785dad1cfa11f2",
+        "id": "d20cf8d0d36b9e30",
         "type": "tabs",
         "children": [
           {
-            "id": "dc415df632f024f4",
+            "id": "7e1ac3085a49b333",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Study/Akhirat/Filsafat/ Nietzsche.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Nietzsche"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 390.5
   },
   "right": {
     "id": "0738bca4a294c196",
@@ -158,45 +154,54 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "dc415df632f024f4",
+  "active": "7e1ac3085a49b333",
   "lastOpenFiles": [
+    "Memories/Personal/Journal/Jangan Boong - Bu hetty.md",
+    "Digital Garden.md",
+    "Knowledge Base/Khan Academy/Khan Academy.md",
+    "Memories/Personal/Quotes/Quotes.md",
+    "Memories/Personal/Personal.md",
+    "Knowledge Base/Parallel Programming/Parallel Programming.md",
+    "Knowledge Base/Windows to Mac Migration.md",
+    "Knowledge Base/docker-compose/Untitled",
+    "Knowledge Base/VSCode Shortcut.md",
+    "Knowledge Base/TED Talks Summary.md",
+    "Knowledge Base.md",
+    "Knowledge Base/Khan Academy/Unit 7- Investment vehicles, insurance, and retirement.md",
+    "Knowledge Base/Khan Academy/Unit 2- Housing.md",
+    "Knowledge Base/Khan Academy/Unit 1- Interest and debt.md",
+    "Knowledge Base/Khan Academy/Unit 9- Options, swaps, futures, MBSs, CDOs, and other derivatives.md",
+    "Knowledge Base/Finance/Coursera Financial Engineering & Risk Management/Coursera Financial Engineering & Risk Management.md",
+    "Knowledge Base/Science Computation/Science Computation.md",
+    "Knowledge Base/Kubernetes.md",
+    "Knowledge Base/Django.md",
+    "Knowledge Base/Data Structures and Algorithm.md",
+    "Knowledge Base/Custom DNS.md",
+    "Knowledge Base/API (Application Programming Interface).md",
     "README.md",
-    "Notion/Study/Akhirat/Filsafat/descartes dan dualisme.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works/Logs/script.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works/Logs/table.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works/Logs/Logs.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Telkomsel DBE Knowledge Base/Broadband Operator VS Internet Service Provider/more examples 2.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Telkomsel DBE Knowledge Base/Broadband Operator VS Internet Service Provider/more examples.md",
-    "Notion/Personal/Journal/Skripsi-penelitian lain/Mentor apps ideation/keep.md",
-    "Notion/Personal/Journal/Skripsi-penelitian lain/Mentor apps ideation/FUKI.md",
-    "Notion/Personal/Journal/Skripsi-penelitian lain/Mentor apps ideation/slide knp hrs belajar techno → masjid.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Quantum Computing.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/XR and the Metaverse.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Security.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Data.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Sustainability & Technology.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/5G & Edge Computing.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Enterprise Platforms.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Agile & DevOps.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Cloud.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Blockchain.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Automation.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/AI.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Gen AI 2.0.md",
-    "Notion/Work/Work Histories/Accenture - Data Engineer/TQ/Generative AI.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works/My Works.md",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Telkomsel DBE Knowledge Base/BQ Col Description.md",
+    "Memories/Personal/Quotes/Finance Quotes.md",
+    "Personal/Quotes/Untitled.md",
+    "Personal/Quotes",
+    "Personal",
+    "Knowledge Base/Study/Study.md",
+    "Knowledge Base/Bias, Fallacy, Paradox/Arrival Fallacy.md",
+    "Knowledge Base/Programming Languages",
+    "Memories/Personal/Journal/Skripsi-penelitian lain/graph-maps sunniXsyiah",
+    "Memories/Personal/Journal/Skripsi-penelitian lain/Mentor apps ideation",
+    "Memories/Personal/Journal/Skripsi-penelitian lain/Buzzer detection",
+    "Memories/Personal/Personal Home/Personality test/Big five",
+    "Memories/Personal/Quotes/film books random",
+    "Memories/Personal/Quotes/Self",
+    "Untitled.canvas",
     "Untitled 189.png",
-    "Buzzer_Detection_and_Sentiment_Analysis_for_Predicting_Presidential_Election_Results_in_a_Twitter_Nation.pdf",
-    "Buzzer_Detection_to_Maintain_Information_Neutrality_in_2019_Indonesia_Presidential_Election.pdf",
     "Untitled 56 4.png",
     "Untitled 55 4.png",
     "Untitled 54 4.png",
@@ -205,15 +210,6 @@
     "Untitled 51 5.png",
     "Untitled 50 5.png",
     "Untitled 49 5.png",
-    "Untitled 48 5.png",
-    "0yJUnVItKDfcPjZUw",
-    "Checkup_2023_10_19_Muhammad_Ichsanul_Amal.pdf",
-    "Holland_Code_Career_Quiz___Truity.pdf",
-    "Sample_MAPP_Assessment_for_Ichsanul_Amal_-_Assessment.com.pdf",
-    "O_NET_Interest_Profiler__Career_List_at_My_Next_Move.pdf",
-    "O_NET_Interest_Profiler__Score_Report_at_My_Next_Move.pdf",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works/Logs",
-    "Notion/Work/Work Histories/Neural Technologies Indonesia - Database Engineer/Problems/My Works",
-    "Untitled.canvas"
+    "Untitled 48 5.png"
   ]
 }
