@@ -1,3 +1,0 @@
----
-OLAP: Sulit dipahami
----

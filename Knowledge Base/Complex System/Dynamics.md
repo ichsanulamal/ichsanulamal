@@ -1,1 +1,0 @@
-The general study of how systems change over time

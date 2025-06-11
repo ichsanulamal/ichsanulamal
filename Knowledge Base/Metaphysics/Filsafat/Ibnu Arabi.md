@@ -1,1 +1,0 @@
-Aqidahnya rodo aneh

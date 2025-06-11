@@ -1,1 +1,0 @@
-Metafisik vs ironis

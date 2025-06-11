@@ -1,1 +1,0 @@
-peripatetik vs iluminasi

@@ -1,1 +1,0 @@
-# BTPN Syariah Data Engineer Virtual Internship Program

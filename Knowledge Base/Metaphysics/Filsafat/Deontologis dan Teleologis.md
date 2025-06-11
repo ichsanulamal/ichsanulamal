@@ -1,2 +1,0 @@
-deontologi : tindakan dinilai baik atau buruk berdasarkan apakah tindakan itu sesuai atau tidak dengan kewajiban (hukum)
-teleologi : pertimbangan moral akan baik buruknya suatu tindakan dilakukan (konteks)

@@ -1,1 +1,0 @@
-# JPMorgan - Quantitative Research

@@ -1,1 +1,0 @@
-Hayy bin yaqdzon

@@ -1,1 +1,0 @@
-Cinta dan keadilan

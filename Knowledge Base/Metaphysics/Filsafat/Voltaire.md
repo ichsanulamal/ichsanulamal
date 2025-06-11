@@ -1,2 +1,0 @@
-Kritik metafisik dan konservatif
-Revolusi Prancis

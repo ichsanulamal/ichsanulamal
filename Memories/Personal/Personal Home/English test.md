@@ -1,1 +1,0 @@
-[https://www.efset.org/cert/rUKnjS](https://www.efset.org/cert/rUKnjS)

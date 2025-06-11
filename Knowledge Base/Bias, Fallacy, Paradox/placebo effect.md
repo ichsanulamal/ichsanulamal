@@ -1,3 +1,0 @@
----
-Text: dr.frost dog
----
