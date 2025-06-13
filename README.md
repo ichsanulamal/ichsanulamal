@@ -3,7 +3,7 @@
 > 🧭 _i don't know what i want. i only know what i don't want._
 
 Hi I'm **insert_name**, currently a corporate wagie in data & AI.  
-Most of my time is spent tinkering with tech, philosophy, and finance — often not productively, but always curiously.
+Most of my time is spent tinkering with tech, philosophy, and fulus — often not productively, but always curiously.
 
 Outside the job, I build systems for sovereignty and do speculative things.
 
