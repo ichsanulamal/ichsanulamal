@@ -7,7 +7,7 @@ Most of my time is spent tinkering with tech, philosophy, and fulus — often no
 
 Outside the job, I build systems for sovereignty and do speculative things.
 
-If you're bored and looking for projects or sparks, check out my list of ["Things I Wish Existed"](https://ichsanulamal.github.io/digital-garden/Notes/Open-Idea-Artifact).  
+If you're bored and looking for projects or sparks, check out my list of ["Things I Wish Existed"](https://ichsanulamal.github.io/digital-garden/Write/Open-Idea-Artifact).  
 Maybe we can build something weird and meaningful.
 
 ---
